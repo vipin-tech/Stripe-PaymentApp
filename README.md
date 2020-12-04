@@ -2,7 +2,10 @@
 
 ---
 
-The URL for the Product Subscription Application is: [http://ec2-54-246-47-112.eu-west-1.compute.amazonaws.com/](http://ec2-54-246-47-112.eu-west-1.compute.amazonaws.com/)
+The URL for the Product Subscription Application is:
+
+
+[http://ec2-54-246-47-112.eu-west-1.compute.amazonaws.com/](http://ec2-54-246-47-112.eu-west-1.compute.amazonaws.com/)
 
 ---
 
