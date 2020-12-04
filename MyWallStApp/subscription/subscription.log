@@ -475,3 +475,53 @@ INFO 2020-12-04 14:05:16,416 basehttp 73096 123145498533888 "GET / HTTP/1.1" 200
 INFO 2020-12-04 14:05:18,928 basehttp 73096 123145498533888 "GET /payment/ HTTP/1.1" 200 2118
 INFO 2020-12-04 14:05:26,552 basehttp 73096 123145498533888 "GET /payment/ HTTP/1.1" 200 2118
 INFO 2020-12-04 14:06:59,037 autoreload 73096 4417388032 /Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/MyWallStApp/settings.py changed, reloading.
+INFO 2020-12-04 14:46:16,135 autoreload 74260 4449684992 Watching for file changes with StatReloader
+INFO 2020-12-04 14:46:18,902 basehttp 74260 123145503354880 "GET / HTTP/1.1" 200 1165
+INFO 2020-12-04 14:46:20,513 basehttp 74260 123145503354880 "GET /payment/ HTTP/1.1" 200 2118
+INFO 2020-12-04 14:46:21,584 views 74260 123145503354880 Initiate the product subscription request
+INFO 2020-12-04 14:46:22,420 paymentImpl 74260 123145503354880 Successfully created subscription method id= pm_1HufY9CMJr6pYPABL3NhXctS
+INFO 2020-12-04 14:46:22,936 paymentImpl 74260 123145503354880 Successfully created Customer id= cus_IVgwYlQEJCdyHI
+INFO 2020-12-04 14:46:23,631 paymentImpl 74260 123145503354880 Successfully attached subscription method id=pm_1HufY9CMJr6pYPABL3NhXctS to customer id=cus_IVgwYlQEJCdyHI
+INFO 2020-12-04 14:46:23,930 paymentImpl 74260 123145503354880 Successfully updated the Customer id= cus_IVgwYlQEJCdyHI with payment id= pm_1HufY9CMJr6pYPABL3NhXctS
+INFO 2020-12-04 14:46:25,794 paymentImpl 74260 123145503354880 Successfully created the Subscription id= sub_IVgw494cmvvx1V
+INFO 2020-12-04 14:46:26,499 paymentImpl 74260 123145503354880 Successfully updated the Subscription id=sub_IVgw494cmvvx1V
+INFO 2020-12-04 14:46:26,502 basehttp 74260 123145503354880 "POST /payment/create-subscription HTTP/1.1" 200 79
+INFO 2020-12-04 14:56:24,201 basehttp 74260 123145503354880 "GET / HTTP/1.1" 200 1165
+INFO 2020-12-04 19:03:05,764 autoreload 74260 4449684992 /Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/MyWallStApp/settings.py changed, reloading.
+INFO 2020-12-04 19:03:07,472 autoreload 75803 4445081088 Watching for file changes with StatReloader
+INFO 2020-12-04 20:25:48,489 autoreload 77574 4450614784 Watching for file changes with StatReloader
+INFO 2020-12-04 20:26:17,693 views 77574 123145350967296 Initiate the product subscription request
+INFO 2020-12-04 20:26:18,336 basehttp 77574 123145350967296 "POST /payment/create-subscription HTTP/1.1" 200 81
+INFO 2020-12-04 20:26:24,310 views 77574 123145350967296 Initiate the product subscription request
+INFO 2020-12-04 20:26:24,546 basehttp 77574 123145350967296 "POST /payment/create-subscription HTTP/1.1" 200 81
+INFO 2020-12-04 20:26:56,873 autoreload 77574 4450614784 /Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/subscription/paymentImpl.py changed, reloading.
+INFO 2020-12-04 20:26:58,526 autoreload 77613 4569599488 Watching for file changes with StatReloader
+INFO 2020-12-04 20:27:12,935 views 77613 123145385635840 Initiate the product subscription request
+ERROR 2020-12-04 20:27:13,289 paymentImpl 77613 123145385635840 Request req_TQLBHeGkMZ8zv0: Missing required param: card.
+INFO 2020-12-04 20:27:13,308 basehttp 77613 123145385635840 "POST /payment/create-subscription HTTP/1.1" 200 81
+INFO 2020-12-04 20:27:57,568 autoreload 77613 4569599488 /Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/subscription/paymentImpl.py changed, reloading.
+INFO 2020-12-04 20:27:59,213 autoreload 77639 4628598272 Watching for file changes with StatReloader
+INFO 2020-12-04 20:28:02,703 views 77639 123145500688384 Initiate the product subscription request
+INFO 2020-12-04 20:28:04,672 autoreload 77639 4628598272 /Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/subscription/paymentImpl.py changed, reloading.
+INFO 2020-12-04 20:28:05,983 autoreload 77649 4602949120 Watching for file changes with StatReloader
+INFO 2020-12-04 20:28:13,087 views 77649 123145486385152 Initiate the product subscription request
+ERROR 2020-12-04 20:28:48,808 paymentImpl 77649 123145486385152 Request req_0QnVX4MzzaqfTy: Missing required param: card.
+INFO 2020-12-04 20:28:48,824 basehttp 77649 123145486385152 "POST /payment/create-subscription HTTP/1.1" 200 81
+INFO 2020-12-04 20:30:07,409 views 77649 123145486385152 Initiate the product subscription request
+INFO 2020-12-04 20:30:55,706 autoreload 77828 4734471680 Watching for file changes with StatReloader
+INFO 2020-12-04 20:31:00,641 views 77828 123145482792960 Initiate the product subscription request
+ERROR 2020-12-04 20:31:17,731 paymentImpl 77828 123145482792960 'bytes' object has no attribute 'get'
+INFO 2020-12-04 20:31:17,749 basehttp 77828 123145482792960 "POST /payment/create-subscription HTTP/1.1" 200 81
+INFO 2020-12-04 20:31:31,233 autoreload 77899 4503936512 Watching for file changes with StatReloader
+INFO 2020-12-04 20:31:34,046 views 77899 123145410080768 Initiate the product subscription request
+ERROR 2020-12-04 20:31:37,243 paymentImpl 77899 123145410080768 'bytes' object has no attribute 'get'
+INFO 2020-12-04 20:31:37,247 basehttp 77899 123145410080768 "POST /payment/create-subscription HTTP/1.1" 200 81
+INFO 2020-12-04 20:31:56,231 autoreload 77899 4503936512 /Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/subscription/views.py changed, reloading.
+INFO 2020-12-04 20:31:56,839 autoreload 77921 4645379584 Watching for file changes with StatReloader
+INFO 2020-12-04 20:32:02,186 views 77921 123145424973824 Initiate the product subscription request
+INFO 2020-12-04 20:32:05,438 paymentImpl 77921 123145424973824 Successfully created subscription method id= pm_1HukwjCMJr6pYPABEKsXAnU3
+INFO 2020-12-04 20:32:05,716 paymentImpl 77921 123145424973824 Successfully created Customer id= cus_IVmVPuQGTRTVeg
+INFO 2020-12-04 20:32:06,443 paymentImpl 77921 123145424973824 Successfully attached subscription method id=pm_1HukwjCMJr6pYPABEKsXAnU3 to customer id=cus_IVmVPuQGTRTVeg
+INFO 2020-12-04 20:32:06,946 paymentImpl 77921 123145424973824 Successfully updated the Customer id= cus_IVmVPuQGTRTVeg with payment id= pm_1HukwjCMJr6pYPABEKsXAnU3
+INFO 2020-12-04 20:32:08,654 paymentImpl 77921 123145424973824 Successfully created the Subscription id= sub_IVmVcUY5b0p4k8
+INFO 2020-12-04 20:32:08,664 basehttp 77921 123145424973824 "POST /payment/create-subscription HTTP/1.1" 200 79

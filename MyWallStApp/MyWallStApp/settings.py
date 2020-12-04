@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'subscription',
     'homepage',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
@@ -121,7 +122,7 @@ LOGGING = {
         'file': {
             'level': 'INFO',
             'class': 'logging.FileHandler',
-            'filename': '/home/ubuntu/django/Stripe-PaymentApp/MyWallStApp/subscription/subscription.log',
+            'filename': 'subscription/subscription.log',
             'formatter': 'verbose'
         },
         'console': {

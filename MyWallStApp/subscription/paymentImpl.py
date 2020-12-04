@@ -32,7 +32,8 @@ class StripePayment(PaymentImpl):
         try:
             self.subscription_creation()
         except Exception as ex:
-            ret_val = {"status_code": 500, "status": "Failed", "message": "Subscription Failed"}
+            ret_val = {"status_code": 500, "status": "Failed", "message": "Subscription Failed. "
+                                                                          "Please try after sometime."}
 
         return ret_val
 
@@ -59,8 +60,9 @@ class StripePayment(PaymentImpl):
             self.update_customer()
 
             self.create_subscription()
-            self.update_subscription()
+            # self.update_subscription()
         except Exception as ex:
+            LOG.error(str(ex))
             raise ex
 
     def create_payment_method(self, payment_type='card'):
@@ -147,14 +149,14 @@ class StripePayment(PaymentImpl):
         LOG.info("Successfully created the Subscription id= {}".format(self.subscription_id))
         return ret_val
 
-    def update_subscription(self):
-        ret_val = stripe.Subscription.modify(
-            self.subscription_id,
-            metadata={"customer": self.customer_id, }
-        )
-
-        LOG.info("Successfully updated the Subscription id={}".format(self.subscription_id))
-        return ret_val
+    # def update_subscription(self):
+    #     ret_val = stripe.Subscription.modify(
+    #         self.subscription_id,
+    #         metadata={"customer": self.customer_id, }
+    #     )
+    #
+    #     LOG.info("Successfully updated the Subscription id={}".format(self.subscription_id))
+    #     return ret_val
 
     def update_subscription_data_in_db(self, data):
         subscription_obj = Subscription.objects.get(pk=data.get('id'))

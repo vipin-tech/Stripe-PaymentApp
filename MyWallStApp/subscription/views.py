@@ -21,7 +21,7 @@ def index(request):
 def subscription_view(request):
     LOG.info("Initiate the product subscription request")
 
-    stripe_impl = impl.StripePayment(kwargs=request.POST)
+    stripe_impl = impl.StripePayment(kwargs=json.loads(request.body))
 
     # Initiate the subscription process
     response = stripe_impl.initiate_subscription()
