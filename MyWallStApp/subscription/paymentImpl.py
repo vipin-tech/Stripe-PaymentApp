@@ -156,7 +156,6 @@ class StripePayment(PaymentImpl):
         LOG.info("Successfully updated the Subscription id={}".format(self.subscription_id))
         return ret_val
 
-
     def update_subscription_data_in_db(self, data):
         subscription_obj = Subscription.objects.get(pk=data.get('id'))
         subscription_obj.subscription_status = data.get('status')
