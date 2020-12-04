@@ -1,0 +1,70 @@
+<html>
+{% csrf_token %}
+
+<style type="text/css">
+    form {
+        margin-top:10px;
+        margin-left: 40px;
+    }
+    .lab{
+    width: 130px;
+    display: inline-block;
+    margin-top:15px;
+    margin-left: 40px;
+    font-weight:bold;
+    }
+    .lab:after{
+        content: ":";
+    }
+
+    .lab1{
+        margin-left: 80px;
+        width: 300px;
+    }
+</style>
+
+
+<div><h1>MyWallSt Backend Developer Assignment</h1></div>
+
+<body>We would like you to prepare a backend application that handles Stripe payments, written in Python + Django
+and Django REST framework. The purpose of this application is to expose an API through which Stripe payments can be
+initiated, and where subscription statuses are processed and stored. With this assignment you can demonstrate your
+experience with Django and API design and integration with third party APIs, and show off your (technical) creativity.
+
+<br/>
+<br/>
+
+<form action = "create-subscription" method = "POST">
+    {% csrf_token %}
+    <label class="lab">Name </label>
+    <input id="name" type="text" name="name" value="Tom"><br/>
+
+    <label class="lab">Email </label>
+    <input id="email" type="text" name="email" value="tom@abc.com"><br/>
+
+     <label class="lab">Card Number </label>
+    <input id="cardno" type="text" name="cardNumber" value=4242424242424242><br/>
+
+    <label class="lab">Expiry Month </label>
+    <input id="exp_month" type="text" name="expiryMonth" value=8><br/>
+
+    <label class="lab">Expiry Year </label>
+    <input id="exp_year" type="text" name="expiryYear" value=2024><br/>
+
+    <label class="lab">CVC </label>
+    <input id="cvc" type="text" name="cvc" value=665><br/>
+
+    <label class="lab">Choose Plan </label>
+    <select name="pricePlan" id="plan">
+      <option value="standard">Standard</option>
+    </select>
+
+    <br/>
+    <br/>
+    <input class="lab1" type="submit" value="Make Payment Now">
+</form>
+
+</body>
+
+
+</html>

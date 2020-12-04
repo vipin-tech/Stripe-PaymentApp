@@ -1,0 +1,267 @@
+INFO 2020-12-03 22:21:38,945 autoreload 63243 4570418688 Watching for file changes with StatReloader
+ERROR 2020-12-03 22:22:25,453 exception 63243 123145560584192 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2020-12-03 22:22:25,523 log 63243 123145560584192 Bad Request: /payment/create-subscription
+WARNING 2020-12-03 22:22:25,523 basehttp 63243 123145560584192 "POST /payment/create-subscription HTTP/1.1" 400 64280
+INFO 2020-12-03 22:22:51,148 autoreload 63243 4570418688 /Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/MyWallStApp/settings.py changed, reloading.
+INFO 2020-12-03 22:22:53,686 autoreload 63267 4421709312 Watching for file changes with StatReloader
+INFO 2020-12-03 22:22:55,089 views 63267 123145475280896 Initiate the product subscription request
+INFO 2020-12-03 22:22:56,333 paymentImpl 63267 123145475280896 Successfully created subscription method id= pm_1HuQCRCMJr6pYPABWbWJborf
+INFO 2020-12-03 22:22:56,634 paymentImpl 63267 123145475280896 Successfully created Customer id= cus_IVR4JIkkAZQBuO
+INFO 2020-12-03 22:22:57,445 paymentImpl 63267 123145475280896 Successfully attached subscription method id=pm_1HuQCRCMJr6pYPABWbWJborf to customer id=cus_IVR4JIkkAZQBuO
+INFO 2020-12-03 22:22:57,957 paymentImpl 63267 123145475280896 Successfully updated the Customer id= cus_IVR4JIkkAZQBuO with payment id= pm_1HuQCRCMJr6pYPABWbWJborf
+INFO 2020-12-03 22:23:00,325 paymentImpl 63267 123145475280896 Successfully created the Subscription id= sub_IVR4wJjq9c1LHh
+INFO 2020-12-03 22:23:01,337 paymentImpl 63267 123145475280896 Successfully updated the Subscription id=sub_IVR4wJjq9c1LHh
+INFO 2020-12-03 22:23:01,339 basehttp 63267 123145475280896 "POST /payment/create-subscription HTTP/1.1" 200 79
+INFO 2020-12-03 22:32:34,862 views 63669 4745125376 Initiate the product subscription request
+INFO 2020-12-03 22:32:35,734 paymentImpl 63669 4745125376 Successfully created subscription method id= pm_1HuQLnCMJr6pYPABR1gPQhVt
+INFO 2020-12-03 22:32:36,027 paymentImpl 63669 4745125376 Successfully created Customer id= cus_IVREKZzlATC2BN
+INFO 2020-12-03 22:32:36,852 paymentImpl 63669 4745125376 Successfully attached subscription method id=pm_1HuQLnCMJr6pYPABR1gPQhVt to customer id=cus_IVREKZzlATC2BN
+INFO 2020-12-03 22:32:37,363 paymentImpl 63669 4745125376 Successfully updated the Customer id= cus_IVREKZzlATC2BN with payment id= pm_1HuQLnCMJr6pYPABR1gPQhVt
+INFO 2020-12-03 22:32:39,297 paymentImpl 63669 4745125376 Successfully created the Subscription id= sub_IVREQvjUAGYVh6
+INFO 2020-12-03 22:32:40,033 paymentImpl 63669 4745125376 Successfully updated the Subscription id=sub_IVREQvjUAGYVh6
+INFO 2020-12-03 22:32:40,044 views 63669 4745125376 stripe webhook invoked
+WARNING 2020-12-03 22:32:40,045 log 63669 4745125376 Bad Request: /payment/webhook
+INFO 2020-12-03 22:34:49,372 autoreload 63883 4409970176 Watching for file changes with StatReloader
+INFO 2020-12-03 22:34:56,521 views 63883 123145472356352 Initiate the product subscription request
+INFO 2020-12-03 22:34:57,357 paymentImpl 63883 123145472356352 Successfully created subscription method id= pm_1HuQO4CMJr6pYPABEHUtvhEN
+INFO 2020-12-03 22:34:57,859 paymentImpl 63883 123145472356352 Successfully created Customer id= cus_IVRGQoefWhfnGi
+INFO 2020-12-03 22:34:58,675 paymentImpl 63883 123145472356352 Successfully attached subscription method id=pm_1HuQO4CMJr6pYPABEHUtvhEN to customer id=cus_IVRGQoefWhfnGi
+INFO 2020-12-03 22:34:59,188 paymentImpl 63883 123145472356352 Successfully updated the Customer id= cus_IVRGQoefWhfnGi with payment id= pm_1HuQO4CMJr6pYPABEHUtvhEN
+INFO 2020-12-03 22:35:01,342 paymentImpl 63883 123145472356352 Successfully created the Subscription id= sub_IVRGreI43pNW96
+INFO 2020-12-03 22:35:02,260 paymentImpl 63883 123145472356352 Successfully updated the Subscription id=sub_IVRGreI43pNW96
+INFO 2020-12-03 22:35:02,262 basehttp 63883 123145472356352 "POST /payment/create-subscription HTTP/1.1" 200 79
+INFO 2020-12-03 22:50:43,811 autoreload 64040 4537105920 Watching for file changes with StatReloader
+INFO 2020-12-03 22:51:25,581 views 64040 123145349140480 Initiate the product subscription request
+INFO 2020-12-03 22:51:26,575 paymentImpl 64040 123145349140480 Successfully created subscription method id= pm_1HuQe2CMJr6pYPABG2miTem9
+INFO 2020-12-03 22:51:27,083 paymentImpl 64040 123145349140480 Successfully created Customer id= cus_IVRXffes9bVRRm
+INFO 2020-12-03 22:51:27,791 paymentImpl 64040 123145349140480 Successfully attached subscription method id=pm_1HuQe2CMJr6pYPABG2miTem9 to customer id=cus_IVRXffes9bVRRm
+INFO 2020-12-03 22:51:28,084 paymentImpl 64040 123145349140480 Successfully updated the Customer id= cus_IVRXffes9bVRRm with payment id= pm_1HuQe2CMJr6pYPABG2miTem9
+INFO 2020-12-03 22:51:29,987 paymentImpl 64040 123145349140480 Successfully created the Subscription id= sub_IVRXkznjgDla9u
+INFO 2020-12-03 22:51:30,866 paymentImpl 64040 123145349140480 Successfully updated the Subscription id=sub_IVRXkznjgDla9u
+INFO 2020-12-03 22:51:30,868 basehttp 64040 123145349140480 "POST /payment/create-subscription HTTP/1.1" 200 79
+INFO 2020-12-04 08:16:18,137 autoreload 64868 4504169984 Watching for file changes with StatReloader
+ERROR 2020-12-04 08:16:20,813 exception 64868 123145414541312 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-04 08:16:21,161 log 64868 123145414541312 Bad Request: /
+WARNING 2020-12-04 08:16:21,165 basehttp 64868 123145414541312 "GET / HTTP/1.1" 400 66052
+ERROR 2020-12-04 08:16:21,682 exception 64868 123145419796480 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-04 08:16:21,740 log 64868 123145419796480 Bad Request: /favicon.ico
+WARNING 2020-12-04 08:16:21,741 basehttp 64868 123145419796480 "GET /favicon.ico HTTP/1.1" 400 65963
+ERROR 2020-12-04 08:16:25,827 exception 64868 123145414541312 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-04 08:16:25,867 log 64868 123145414541312 Bad Request: /payment
+WARNING 2020-12-04 08:16:25,868 basehttp 64868 123145414541312 "GET /payment HTTP/1.1" 400 66259
+ERROR 2020-12-04 08:16:26,971 exception 64868 123145419796480 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-04 08:16:27,011 log 64868 123145419796480 Bad Request: /favicon.ico
+WARNING 2020-12-04 08:16:27,011 basehttp 64868 123145419796480 "GET /favicon.ico HTTP/1.1" 400 65970
+INFO 2020-12-04 08:16:47,335 autoreload 64868 4504169984 /Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/MyWallStApp/settings.py changed, reloading.
+INFO 2020-12-04 08:16:48,287 autoreload 64887 4556525056 Watching for file changes with StatReloader
+INFO 2020-12-04 08:16:51,056 basehttp 64887 123145474600960 "GET /payment HTTP/1.1" 301 0
+INFO 2020-12-04 08:16:51,087 basehttp 64887 123145474600960 "GET /payment/ HTTP/1.1" 200 1402
+WARNING 2020-12-04 08:16:51,254 log 64887 123145474600960 Not Found: /favicon.ico
+WARNING 2020-12-04 08:16:51,255 basehttp 64887 123145474600960 "GET /favicon.ico HTTP/1.1" 404 2085
+INFO 2020-12-04 08:17:48,507 autoreload 64933 4560641536 Watching for file changes with StatReloader
+INFO 2020-12-04 08:17:51,152 basehttp 64933 123145497497600 "GET /payment/ HTTP/1.1" 200 1427
+INFO 2020-12-04 08:18:08,200 autoreload 64961 4688219648 Watching for file changes with StatReloader
+INFO 2020-12-04 08:18:10,083 basehttp 64961 123145381142528 "GET /payment/ HTTP/1.1" 200 1432
+INFO 2020-12-04 08:20:25,180 autoreload 65040 4303609344 Watching for file changes with StatReloader
+INFO 2020-12-04 08:20:32,065 basehttp 65040 123145387663360 "GET /payment/ HTTP/1.1" 200 1516
+INFO 2020-12-04 08:20:35,247 basehttp 65040 123145387663360 "GET /payment/ HTTP/1.1" 200 1516
+INFO 2020-12-04 08:22:18,654 autoreload 65091 4446248448 Watching for file changes with StatReloader
+INFO 2020-12-04 08:22:22,999 basehttp 65091 123145354743808 "GET /payment/ HTTP/1.1" 200 1645
+INFO 2020-12-04 08:24:36,714 autoreload 65150 4504923648 Watching for file changes with StatReloader
+INFO 2020-12-04 08:24:42,138 basehttp 65150 123145362731008 "GET /payment/ HTTP/1.1" 200 1642
+INFO 2020-12-04 08:24:43,001 basehttp 65150 123145362731008 "GET /payment/ HTTP/1.1" 200 1642
+INFO 2020-12-04 08:24:43,400 basehttp 65150 123145362731008 "GET /payment/ HTTP/1.1" 200 1642
+INFO 2020-12-04 08:24:43,671 basehttp 65150 123145362731008 "GET /payment/ HTTP/1.1" 200 1642
+INFO 2020-12-04 08:28:44,634 autoreload 65234 4632456704 Watching for file changes with StatReloader
+INFO 2020-12-04 08:28:50,905 basehttp 65234 123145409355776 "GET /payment/ HTTP/1.1" 200 1837
+INFO 2020-12-04 08:29:11,374 autoreload 65273 4674260480 Watching for file changes with StatReloader
+INFO 2020-12-04 08:29:12,148 basehttp 65273 123145352286208 "GET /payment/ HTTP/1.1" 200 1835
+INFO 2020-12-04 08:29:32,576 basehttp 65273 123145352286208 "GET /payment/ HTTP/1.1" 200 1847
+INFO 2020-12-04 08:29:34,075 basehttp 65273 123145352286208 "GET /payment/ HTTP/1.1" 200 1847
+INFO 2020-12-04 08:29:48,005 basehttp 65273 123145352286208 "GET /payment/ HTTP/1.1" 200 1847
+INFO 2020-12-04 08:29:57,537 basehttp 65273 123145352286208 "GET /payment/ HTTP/1.1" 200 1847
+INFO 2020-12-04 08:30:47,105 basehttp 65273 123145352286208 "GET /payment/ HTTP/1.1" 200 1907
+INFO 2020-12-04 08:30:48,726 basehttp 65273 123145352286208 "GET /payment/ HTTP/1.1" 200 1907
+INFO 2020-12-04 08:30:49,641 basehttp 65273 123145352286208 "GET /payment/ HTTP/1.1" 200 1907
+INFO 2020-12-04 08:31:12,870 basehttp 65273 123145352286208 "GET /payment/ HTTP/1.1" 200 1934
+INFO 2020-12-04 08:31:27,273 basehttp 65273 123145352286208 "GET /payment/ HTTP/1.1" 200 1934
+WARNING 2020-12-04 08:31:34,534 log 65273 123145352286208 Not Found: /create-subscription
+WARNING 2020-12-04 08:31:34,534 basehttp 65273 123145352286208 "POST /create-subscription HTTP/1.1" 404 2110
+INFO 2020-12-04 08:31:47,626 basehttp 65273 123145352286208 "GET /payment/ HTTP/1.1" 200 1941
+INFO 2020-12-04 08:31:47,823 basehttp 65273 123145352286208 "GET /payment/ HTTP/1.1" 200 1941
+WARNING 2020-12-04 08:31:53,282 log 65273 123145352286208 Not Found: /payment/payment/create-subscription
+WARNING 2020-12-04 08:31:53,283 basehttp 65273 123145352286208 "POST /payment/payment/create-subscription HTTP/1.1" 404 2592
+WARNING 2020-12-04 08:32:15,948 log 65273 123145352286208 Not Found: /payment/payment/create-subscription
+WARNING 2020-12-04 08:32:15,948 basehttp 65273 123145352286208 "POST /payment/payment/create-subscription HTTP/1.1" 404 2592
+INFO 2020-12-04 08:32:24,390 autoreload 65343 4593278464 Watching for file changes with StatReloader
+INFO 2020-12-04 08:32:28,099 basehttp 65343 123145404203008 "GET /payment/ HTTP/1.1" 200 1934
+INFO 2020-12-04 08:32:28,617 basehttp 65343 123145404203008 "GET /payment/ HTTP/1.1" 200 1934
+WARNING 2020-12-04 08:32:32,950 log 65343 123145404203008 Not Found: /create-subscription
+WARNING 2020-12-04 08:32:32,951 basehttp 65343 123145404203008 "POST /create-subscription HTTP/1.1" 404 2110
+INFO 2020-12-04 08:32:43,015 basehttp 65343 123145404203008 "GET /payment/ HTTP/1.1" 200 1933
+INFO 2020-12-04 08:32:44,737 views 65343 123145404203008 Initiate the product subscription request
+ERROR 2020-12-04 08:32:44,788 log 65343 123145404203008 Internal Server Error: /payment/create-subscription
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/subscription/views.py", line 23, in subscription_view
+    stripe_impl = impl.StripePayment(kwargs=json.loads(request.body))
+  File "/opt/anaconda3/lib/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/opt/anaconda3/lib/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/opt/anaconda3/lib/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2020-12-04 08:32:44,789 basehttp 65343 123145404203008 "POST /payment/create-subscription HTTP/1.1" 500 79671
+INFO 2020-12-04 08:34:46,108 autoreload 65343 4593278464 /Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/subscription/views.py changed, reloading.
+INFO 2020-12-04 08:34:48,515 autoreload 65410 4544978432 Watching for file changes with StatReloader
+INFO 2020-12-04 08:34:58,325 basehttp 65410 123145546600448 "GET /payment/ HTTP/1.1" 200 1933
+INFO 2020-12-04 08:34:59,885 views 65410 123145546600448 Initiate the product subscription request
+INFO 2020-12-04 08:42:09,231 autoreload 65732 4517219840 Watching for file changes with StatReloader
+INFO 2020-12-04 08:42:17,266 basehttp 65732 123145568858112 "GET /payment/ HTTP/1.1" 200 1933
+INFO 2020-12-04 08:42:19,226 views 65732 123145568858112 Initiate the product subscription request
+INFO 2020-12-04 08:45:30,610 autoreload 65996 4519992832 Watching for file changes with StatReloader
+INFO 2020-12-04 08:45:39,834 views 65996 123145347072000 Initiate the product subscription request
+INFO 2020-12-04 08:46:38,112 paymentImpl 65996 123145347072000 Successfully created subscription method id= pm_1HuZw1CMJr6pYPABG65iK0Fu
+INFO 2020-12-04 08:46:39,941 paymentImpl 65996 123145347072000 Successfully created Customer id= cus_IVb8ORCgO3CN01
+INFO 2020-12-04 08:46:40,645 paymentImpl 65996 123145347072000 Successfully attached subscription method id=pm_1HuZw1CMJr6pYPABG65iK0Fu to customer id=cus_IVb8ORCgO3CN01
+INFO 2020-12-04 08:46:40,917 paymentImpl 65996 123145347072000 Successfully updated the Customer id= cus_IVb8ORCgO3CN01 with payment id= pm_1HuZw1CMJr6pYPABG65iK0Fu
+INFO 2020-12-04 08:46:42,607 paymentImpl 65996 123145347072000 Successfully created the Subscription id= sub_IVb8ly6iUNkS4T
+INFO 2020-12-04 08:46:43,328 paymentImpl 65996 123145347072000 Successfully updated the Subscription id=sub_IVb8ly6iUNkS4T
+INFO 2020-12-04 08:46:43,330 basehttp 65996 123145347072000 "POST /payment/create-subscription HTTP/1.1" 200 79
+INFO 2020-12-04 08:47:31,262 autoreload 65996 4519992832 /Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/subscription/views.py changed, reloading.
+INFO 2020-12-04 08:47:33,752 autoreload 66217 4715458048 Watching for file changes with StatReloader
+INFO 2020-12-04 08:47:37,028 autoreload 66217 4715458048 /Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/subscription/views.py changed, reloading.
+INFO 2020-12-04 08:47:38,048 autoreload 66224 4375137792 Watching for file changes with StatReloader
+INFO 2020-12-04 08:49:18,227 autoreload 66224 4375137792 /Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/subscription/views.py changed, reloading.
+INFO 2020-12-04 08:49:19,027 autoreload 66257 4601220608 Watching for file changes with StatReloader
+INFO 2020-12-04 08:50:35,081 autoreload 66257 4601220608 /Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/subscription/views.py changed, reloading.
+INFO 2020-12-04 08:50:37,265 autoreload 66290 4544855552 Watching for file changes with StatReloader
+INFO 2020-12-04 08:51:09,424 basehttp 66290 123145512988672 "GET /payment/ HTTP/1.1" 200 1933
+INFO 2020-12-04 08:51:15,392 views 66290 123145512988672 Initiate the product subscription request
+INFO 2020-12-04 08:51:16,210 paymentImpl 66290 123145512988672 Successfully created subscription method id= pm_1Hua0VCMJr6pYPABXGPtI1RK
+INFO 2020-12-04 08:51:16,817 paymentImpl 66290 123145512988672 Successfully created Customer id= cus_IVbCfbA7We7Qa4
+INFO 2020-12-04 08:51:17,525 paymentImpl 66290 123145512988672 Successfully attached subscription method id=pm_1Hua0VCMJr6pYPABXGPtI1RK to customer id=cus_IVbCfbA7We7Qa4
+INFO 2020-12-04 08:51:17,791 paymentImpl 66290 123145512988672 Successfully updated the Customer id= cus_IVbCfbA7We7Qa4 with payment id= pm_1Hua0VCMJr6pYPABXGPtI1RK
+INFO 2020-12-04 08:51:19,681 paymentImpl 66290 123145512988672 Successfully created the Subscription id= sub_IVbCAAFJiVTNqM
+INFO 2020-12-04 08:51:20,598 paymentImpl 66290 123145512988672 Successfully updated the Subscription id=sub_IVbCAAFJiVTNqM
+ERROR 2020-12-04 08:51:20,672 log 66290 123145512988672 Internal Server Error: /payment/create-subscription
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "/opt/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 309, in check_response
+    "instead." % name
+ValueError: The view subscription.views.subscription_view didn't return an HttpResponse object. It returned None instead.
+ERROR 2020-12-04 08:51:20,673 basehttp 66290 123145512988672 "POST /payment/create-subscription HTTP/1.1" 500 64027
+INFO 2020-12-04 08:52:12,947 autoreload 66290 4544855552 /Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/subscription/views.py changed, reloading.
+INFO 2020-12-04 08:52:15,459 autoreload 66327 4611431936 Watching for file changes with StatReloader
+INFO 2020-12-04 08:52:21,893 basehttp 66327 123145480507392 "GET /payment/ HTTP/1.1" 200 1933
+INFO 2020-12-04 08:52:23,420 views 66327 123145480507392 Initiate the product subscription request
+INFO 2020-12-04 08:52:24,194 paymentImpl 66327 123145480507392 Successfully created subscription method id= pm_1Hua1bCMJr6pYPABQHxgBvHO
+INFO 2020-12-04 08:52:24,481 paymentImpl 66327 123145480507392 Successfully created Customer id= cus_IVbEwIO1EnlkXg
+INFO 2020-12-04 08:52:25,108 paymentImpl 66327 123145480507392 Successfully attached subscription method id=pm_1Hua1bCMJr6pYPABQHxgBvHO to customer id=cus_IVbEwIO1EnlkXg
+INFO 2020-12-04 08:52:25,390 paymentImpl 66327 123145480507392 Successfully updated the Customer id= cus_IVbEwIO1EnlkXg with payment id= pm_1Hua1bCMJr6pYPABQHxgBvHO
+INFO 2020-12-04 08:52:27,368 paymentImpl 66327 123145480507392 Successfully created the Subscription id= sub_IVbE6yXj9VcZf3
+INFO 2020-12-04 08:52:28,078 paymentImpl 66327 123145480507392 Successfully updated the Subscription id=sub_IVbE6yXj9VcZf3
+INFO 2020-12-04 08:53:16,632 autoreload 66400 4456328704 Watching for file changes with StatReloader
+INFO 2020-12-04 08:53:18,943 basehttp 66400 123145540661248 "GET /payment/ HTTP/1.1" 200 1933
+INFO 2020-12-04 08:53:22,298 views 66400 123145540661248 Initiate the product subscription request
+INFO 2020-12-04 08:53:23,071 paymentImpl 66400 123145540661248 Successfully created subscription method id= pm_1Hua2YCMJr6pYPABhhFBntRz
+INFO 2020-12-04 08:53:23,352 paymentImpl 66400 123145540661248 Successfully created Customer id= cus_IVbFa5sQxV2IAV
+INFO 2020-12-04 08:53:24,089 paymentImpl 66400 123145540661248 Successfully attached subscription method id=pm_1Hua2YCMJr6pYPABhhFBntRz to customer id=cus_IVbFa5sQxV2IAV
+INFO 2020-12-04 08:53:24,381 paymentImpl 66400 123145540661248 Successfully updated the Customer id= cus_IVbFa5sQxV2IAV with payment id= pm_1Hua2YCMJr6pYPABhhFBntRz
+INFO 2020-12-04 08:53:26,656 paymentImpl 66400 123145540661248 Successfully created the Subscription id= sub_IVbFVJYjix2Bji
+INFO 2020-12-04 08:53:27,673 paymentImpl 66400 123145540661248 Successfully updated the Subscription id=sub_IVbFVJYjix2Bji
+INFO 2020-12-04 08:53:27,675 basehttp 66400 123145540661248 "POST /payment/create-subscription HTTP/1.1" 200 79
+INFO 2020-12-04 08:54:22,844 basehttp 66400 123145540661248 "GET /payment/ HTTP/1.1" 200 1933
+INFO 2020-12-04 08:56:40,205 views 66498 4639374848 Initiate the product subscription request
+INFO 2020-12-04 08:56:40,569 views 66498 4639374848 stripe webhook invoked
+WARNING 2020-12-04 08:56:40,569 log 66498 4639374848 Bad Request: /payment/webhook
+INFO 2020-12-04 08:57:07,405 views 66580 4539969024 Initiate the product subscription request
+INFO 2020-12-04 08:57:07,783 views 66580 4539969024 stripe webhook invoked
+WARNING 2020-12-04 08:57:07,783 log 66580 4539969024 Bad Request: /payment/webhook
+INFO 2020-12-04 08:57:42,898 views 66667 4437827072 Initiate the product subscription request
+INFO 2020-12-04 08:57:43,273 views 66667 4437827072 stripe webhook invoked
+WARNING 2020-12-04 08:57:43,273 log 66667 4437827072 Bad Request: /payment/webhook
+INFO 2020-12-04 08:59:42,068 views 66929 4473392640 Initiate the product subscription request
+INFO 2020-12-04 08:59:42,517 views 66929 4473392640 stripe webhook invoked
+WARNING 2020-12-04 08:59:42,518 log 66929 4473392640 Bad Request: /payment/webhook
+INFO 2020-12-04 09:04:16,124 views 67102 4649156096 Initiate the product subscription request
+INFO 2020-12-04 09:04:16,565 views 67102 4649156096 stripe webhook invoked
+WARNING 2020-12-04 09:04:16,565 log 67102 4649156096 Bad Request: /payment/webhook
+INFO 2020-12-04 09:04:32,136 views 67132 4604468736 Initiate the product subscription request
+INFO 2020-12-04 09:04:32,498 views 67132 4604468736 stripe webhook invoked
+WARNING 2020-12-04 09:04:32,499 log 67132 4604468736 Bad Request: /payment/webhook
+INFO 2020-12-04 09:05:02,202 views 67227 4429266432 Initiate the product subscription request
+INFO 2020-12-04 09:05:02,612 views 67227 4429266432 stripe webhook invoked
+WARNING 2020-12-04 09:05:02,612 log 67227 4429266432 Bad Request: /payment/webhook
+INFO 2020-12-04 09:08:01,799 views 67359 4702858752 Initiate the product subscription request
+INFO 2020-12-04 09:08:02,463 views 67359 4702858752 stripe webhook invoked
+WARNING 2020-12-04 09:08:02,463 log 67359 4702858752 Bad Request: /payment/webhook
+INFO 2020-12-04 09:09:03,745 views 67488 4652236288 Initiate the product subscription request
+INFO 2020-12-04 09:09:04,238 views 67488 4652236288 stripe webhook invoked
+WARNING 2020-12-04 09:09:04,239 log 67488 4652236288 Bad Request: /payment/webhook
+INFO 2020-12-04 09:09:10,771 views 67518 4562951680 Initiate the product subscription request
+INFO 2020-12-04 09:09:11,271 views 67518 4562951680 stripe webhook invoked
+WARNING 2020-12-04 09:09:11,272 log 67518 4562951680 Bad Request: /payment/webhook
+INFO 2020-12-04 09:22:59,231 views 67947 4520803840 Initiate the product subscription request
+INFO 2020-12-04 09:22:59,632 views 67947 4520803840 stripe webhook invoked
+WARNING 2020-12-04 09:22:59,632 log 67947 4520803840 Bad Request: /payment/webhook
+INFO 2020-12-04 09:37:22,413 views 68453 4563590656 Initiate the product subscription request
+INFO 2020-12-04 09:37:23,014 views 68453 4563590656 stripe webhook invoked
+WARNING 2020-12-04 09:37:23,014 log 68453 4563590656 Bad Request: /payment/webhook
+INFO 2020-12-04 09:45:15,474 views 68790 4479520256 Initiate the product subscription request
+INFO 2020-12-04 09:45:16,028 views 68790 4479520256 stripe webhook invoked
+WARNING 2020-12-04 09:45:16,028 log 68790 4479520256 Bad Request: /payment/webhook
+INFO 2020-12-04 09:45:33,416 views 68818 4597480960 Initiate the product subscription request
+INFO 2020-12-04 09:45:33,948 views 68818 4597480960 stripe webhook invoked
+WARNING 2020-12-04 09:45:33,949 log 68818 4597480960 Bad Request: /payment/webhook
+INFO 2020-12-04 09:47:25,826 autoreload 68939 4471082496 Watching for file changes with StatReloader
+WARNING 2020-12-04 09:47:28,011 log 68939 123145546338304 Not Found: /
+WARNING 2020-12-04 09:47:28,012 basehttp 68939 123145546338304 "GET / HTTP/1.1" 404 2034
+INFO 2020-12-04 09:47:36,022 basehttp 68939 123145546338304 "GET /payment/ HTTP/1.1" 200 1933
+INFO 2020-12-04 09:47:46,051 views 68939 123145546338304 Initiate the product subscription request
+INFO 2020-12-04 09:47:47,043 paymentImpl 68939 123145546338304 Successfully created subscription method id= pm_1HuatCCMJr6pYPABRSyTyZ2S
+INFO 2020-12-04 09:47:47,319 paymentImpl 68939 123145546338304 Successfully created Customer id= cus_IVc7GSIGERjmQX
+INFO 2020-12-04 09:47:48,018 paymentImpl 68939 123145546338304 Successfully attached subscription method id=pm_1HuatCCMJr6pYPABRSyTyZ2S to customer id=cus_IVc7GSIGERjmQX
+INFO 2020-12-04 09:47:48,334 paymentImpl 68939 123145546338304 Successfully updated the Customer id= cus_IVc7GSIGERjmQX with payment id= pm_1HuatCCMJr6pYPABRSyTyZ2S
+INFO 2020-12-04 09:47:50,109 paymentImpl 68939 123145546338304 Successfully created the Subscription id= sub_IVc7oGfYdPzetz
+INFO 2020-12-04 09:47:50,865 paymentImpl 68939 123145546338304 Successfully updated the Subscription id=sub_IVc7oGfYdPzetz
+INFO 2020-12-04 09:47:50,868 basehttp 68939 123145546338304 "POST /payment/create-subscription HTTP/1.1" 200 79
+INFO 2020-12-04 09:49:32,513 autoreload 69002 4342541824 Watching for file changes with StatReloader
+INFO 2020-12-04 09:49:34,233 basehttp 69002 123145523003392 "GET /payment/ HTTP/1.1" 200 2082
+INFO 2020-12-04 09:50:31,522 autoreload 69036 4698414592 Watching for file changes with StatReloader
+INFO 2020-12-04 09:50:35,041 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2083
+INFO 2020-12-04 09:51:08,799 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2081
+INFO 2020-12-04 09:51:19,053 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2081
+INFO 2020-12-04 09:51:38,392 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2081
+INFO 2020-12-04 09:51:46,428 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2081
+INFO 2020-12-04 09:51:55,961 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2081
+INFO 2020-12-04 09:52:02,634 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2081
+INFO 2020-12-04 09:52:35,755 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2050
+INFO 2020-12-04 09:52:36,414 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2050
+INFO 2020-12-04 09:52:36,687 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2050
+INFO 2020-12-04 09:52:36,898 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2050
+INFO 2020-12-04 09:53:19,184 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2074
+INFO 2020-12-04 09:53:19,957 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2074
+INFO 2020-12-04 09:53:32,208 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2075
+INFO 2020-12-04 09:54:40,204 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2096
+INFO 2020-12-04 09:54:42,855 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2096
+INFO 2020-12-04 09:54:55,945 basehttp 69036 123145559228416 "GET /payment/ HTTP/1.1" 200 2096
+INFO 2020-12-04 09:55:54,337 basehttp 69036 123145564483584 "GET /payment HTTP/1.1" 301 0
+INFO 2020-12-04 09:55:54,345 basehttp 69036 123145564483584 "GET /payment/ HTTP/1.1" 200 2118
+WARNING 2020-12-04 09:55:54,601 log 69036 123145564483584 Not Found: /favicon.ico
+WARNING 2020-12-04 09:55:54,602 basehttp 69036 123145564483584 "GET /favicon.ico HTTP/1.1" 404 2085
+INFO 2020-12-04 09:56:52,614 views 69036 123145564483584 Initiate the product subscription request
+INFO 2020-12-04 09:56:53,541 paymentImpl 69036 123145564483584 Successfully created subscription method id= pm_1Hub21CMJr6pYPABzJGBXexr
+INFO 2020-12-04 09:56:54,261 paymentImpl 69036 123145564483584 Successfully created Customer id= cus_IVcGDAIYbpbyxg
+INFO 2020-12-04 09:56:54,966 paymentImpl 69036 123145564483584 Successfully attached subscription method id=pm_1Hub21CMJr6pYPABzJGBXexr to customer id=cus_IVcGDAIYbpbyxg
+INFO 2020-12-04 09:56:55,266 paymentImpl 69036 123145564483584 Successfully updated the Customer id= cus_IVcGDAIYbpbyxg with payment id= pm_1Hub21CMJr6pYPABzJGBXexr
+INFO 2020-12-04 09:56:56,967 paymentImpl 69036 123145564483584 Successfully created the Subscription id= sub_IVcGgoGYRWDw6S
+INFO 2020-12-04 09:56:57,862 paymentImpl 69036 123145564483584 Successfully updated the Subscription id=sub_IVcGgoGYRWDw6S
+INFO 2020-12-04 09:56:57,866 basehttp 69036 123145564483584 "POST /payment/create-subscription HTTP/1.1" 200 79
