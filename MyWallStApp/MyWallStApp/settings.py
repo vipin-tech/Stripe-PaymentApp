@@ -27,7 +27,7 @@ SECRET_KEY = 'juvla#p3^69l#k3!vnbduf9s@o@j3-$p&ayuanpdnrl)88qq59'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['PaymentApp-env.eba-cs9uum2r.eu-west-1.elasticbeanstalk.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['0.0.0.0', 'ec2-54-246-47-112.eu-west-1.compute.amazonaws.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'subscription',
-    'django_nose',
+    'homepage',
 ]
 
 MIDDLEWARE = [
@@ -58,7 +58,7 @@ ROOT_URLCONF = 'MyWallStApp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/Users/vipinragashetti/Vipin/Workspace/self-pace/MyWallSt/MyWallStApp/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -121,7 +121,7 @@ LOGGING = {
         'file': {
             'level': 'INFO',
             'class': 'logging.FileHandler',
-            'filename': 'subscription/subscription.log',
+            'filename': '/home/ubuntu/django/Stripe-PaymentApp/MyWallStApp/subscription/subscription.log',
             'formatter': 'verbose'
         },
         'console': {
