@@ -26,10 +26,7 @@ def subscription_view(request):
     # Initiate the subscription process
     response = stripe_impl.initiate_subscription()
 
-    if response.get('status') == "Success":
-        return render(request, "subscription/success.html")
-    else:
-        return render(request, "subscription/error.html")
+    return render(request, "subscription/output.html", {'response': response})
 
 
 @csrf_exempt
